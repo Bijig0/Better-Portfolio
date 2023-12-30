@@ -17,9 +17,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="SwiftQu"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        description="A modern queuing management system launched in 17 businesses around Australia. The SwiftQu project includes an admin dashboard for businesses, a mobile application for end users, and a landing page for marketing purposes."
         link="/"
         img={{
           src: '/assets/images/SwiftQuLogo.png',
@@ -27,41 +25,36 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-            <Tags color={ColorTags.AMBER}>React</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Select for more info</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Intstitute"
+        description="A programming academy for young kids, offering programming tutoring and workshops. Built with the Shopify Dawn theme, with minor customizations done using Javascript and CSS"
+        link="https://www.intstitute.com"
+        img={{ src: '/assets/images/IntstituteLogo.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Shopify</Tags>
+            <Tags color={ColorTags.YELLOW}>Javascript</Tags>
+            <Tags color={ColorTags.BLUE}>CSS</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Mortal Kombat Leaderboard"
+        description="My very first project! A leaderboard for the Mortal Kombat 11 video game built with CRA and deployed onto Netlify. Has my hand-made pagination, data fetching, and terrible design :)"
         link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{
+          src: '/assets/images/MortalKombatLogo.png',
+          alt: 'Project Maps',
+        }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.BLUE}>React</Tags>
+            <Tags color={ColorTags.INDIGO}>Netlify</Tags>
+            <Tags color={ColorTags.YELLOW}>Javascript</Tags>
           </>
         }
       />
